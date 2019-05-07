@@ -101,6 +101,65 @@ $(document).ready(function () {
 //<i class=""></i>
 //    <i class=""></i>
 $(function () {
+    $('#owl-one').owlCarousel({
+        loop: false,
+        margin: 0,
+        dots: false,
+        nav: true,
+        slideBy: 4,
+        items: 4,
+        navText: ["<i class='flaticon-left-1'></i>", " <i class='flaticon-right-arrow'></i>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            400: {
+                margin: 10,
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            600: {
+                margin: 10,
+                slideBy: 2,
+                items: 2,
+                dots: false,
+                nav: true
+            },
+            768: {
+                margin: 10,
+                slideBy: 3,
+                items: 3,
+                dots: false,
+                nav: true
+            },
+            800: {
+                margin: 10,
+                slideBy: 3,
+                items: 3,
+                dots: false,
+                nav: true
+            },
+            900: {
+                margin: 10,
+                slideBy: 3,
+                items: 3,
+                dots: false,
+                nav: true
+            },
+            1000: {
+                margin: 10,
+                items: 4,
+                dots: false,
+                nav: true
+            }
+        }
+    });
+});
+$(function () {
     $('.owl-carousel').owlCarousel({
         loop: false,
         margin: 0,
@@ -139,45 +198,7 @@ $(function () {
         }
     });
 });
-$(function () {
-    $('#owl-one').owlCarousel({
-        loop: false,
-        margin: 10,
-        dots: false,
-        nav: true,
-        slideBy: 4,
-        item: 4,
-        navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                dots: false,
-                nav: true
-            },
-            400: {
-                items: 1,
-                dots: false,
-                nav: true
-            },
-            600: {
-                items: 2,
-                dots: false,
-                nav: true
-            },
-            800: {
-                items: 3,
-                dots: false,
-                nav: true
-            },
-            1000: {
-                items: 4,
-                dots: false,
-                nav: true
-            }
-        }
-    });
-});
+
 //$(function () {
 //    $('.owl-carousel').owlCarousel({
 //        loop: true,
