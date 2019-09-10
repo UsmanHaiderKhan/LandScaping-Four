@@ -161,7 +161,7 @@ $(function () {
 });
 $(function () {
     $('.owl-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 0,
         dots: false,
         nav: true,
