@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 
@@ -6,7 +6,7 @@
 font-family: 'Poppins', sans-serif;
 
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -20,7 +20,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -55,7 +55,7 @@ html, body {
 }
 
 .nav-item {
-    padding: 0 8px 0 8px;
+    padding: 0 17px 0 17px;
     position: relative;
 }
 
@@ -94,7 +94,7 @@ html, body {
     border-left: 1px solid #8fd097;
     background-color: #27b838;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navbar {
@@ -131,7 +131,7 @@ html, body {
     font-size: 50px;
     color: #ffffff;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     text-shadow: 1.5px 2.598px 0px rgba(0, 0, 0, 0.75);
@@ -248,7 +248,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
       About Us Section Styling
   =================================*/
 #bg-banner {
@@ -289,7 +289,7 @@ html, body {
         position: absolute;
         border-right: 2px dashed #b7b7b7;
     }
-/*================================= 
+/*=================================
       About Section Styling
   =================================*/
 
@@ -330,7 +330,7 @@ html, body {
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
-/*================================= 
+/*=================================
       Service Section Styling
   =================================*/
 #services {
@@ -493,7 +493,7 @@ flaticon-cut:before {
     font-size: 30px;
     color: #29932b;
 }
-/*================================= 
+/*=================================
        Gallert Section Styling
   =================================*/
 #gallery {
@@ -547,7 +547,7 @@ flaticon-cut:before {
         color: #ffffff;
         text-decoration: none;
     }
-/*================================= 
+/*=================================
        Team Section Styling
   =================================*/
 #team {
@@ -648,7 +648,7 @@ flaticon-cut:before {
     background: #27b838;
     color: #ffffff;
 }
-/*================================= 
+/*=================================
       News Section Styling
   =================================*/
 .news-text {
@@ -775,7 +775,7 @@ flaticon-cut:before {
         color: #2f2405;
         text-decoration: none;
     }
-/*================================= 
+/*=================================
      Contact Section Styling
   =================================*/
 
@@ -791,7 +791,7 @@ flaticon-cut:before {
 
 .bg-contact-color {
     margin-top: 72px;
-    padding: 70px 34px;
+    padding: 70px 34px 110px 34px;
     background: #2f2405;
     -webkit-box-shadow: 10px 10px 29px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 29px -13px rgba(0,0,0,0.75);
@@ -871,8 +871,6 @@ flaticon-cut:before {
     }
 
 .address-bg-color {
-    position: absolute;
-    bottom: 170px;
     padding: 33px 45px;
     background: #2f2405;
     -webkit-box-shadow: 10px 10px 29px -13px rgba(0,0,0,0.75);
@@ -931,7 +929,7 @@ flaticon-cut:before {
     -moz-box-shadow: 2px 5px 29px -13px rgba(0,0,0,0.75);
     box-shadow: 2px 5px 29px -13px rgba(0,0,0,0.75);
 }
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1678,7 +1676,8 @@ button:focus {
     }
 
     .contact-bg-color {
-        height: 38vh;
+        padding: 70px 34px 72px 34px;
+        height: 42vh;
     }
 
     .contact-desc {
@@ -1686,11 +1685,23 @@ button:focus {
     }
 
     .body-text {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .footer-font {
         font-size: 20px;
+    }
+
+    #contact .flaticon-mobile-phone:before {
+        font-size: 38px;
+    }
+
+    #contact .flaticon-email-filled-closed-envelope:before {
+        font-size: 38px;
+    }
+
+    #contact .flaticon-pin:before {
+        font-size: 38px;
     }
 
     #services .owl-carousel .owl-nav button.owl-next {
@@ -1707,7 +1718,7 @@ button:focus {
 @media screen and (max-width: 900px) {
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 802px) {
     #home .main-banner-text {
         font-size: 30px;
     }
@@ -1782,7 +1793,7 @@ button:focus {
     }
 
     .address-bg-color {
-        position: absolute;
+        position: relative;
         padding: 21px 30px;
     }
 
@@ -1815,7 +1826,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     #home .main-banner-text {
         font-size: 30px;
     }
@@ -1890,7 +1901,7 @@ button:focus {
     }
 
     .address-bg-color {
-        position: absolute;
+        position: relative;
         padding: 21px 30px;
     }
 
@@ -1923,7 +1934,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .navbar {
         padding: 6px;
     }
@@ -1985,19 +1996,16 @@ button:focus {
     }
 
     .contact-bg-color {
-        height: 126vh;
+        height: 124vh;
     }
 
-    .address-bg-color {
-        bottom: -352px;
-    }
 
     .body-text {
         font-size: 18px;
     }
 
     .media-mt-footer {
-        margin-top: 378px;
+        margin-top: 30px;
     }
 
     .footer-font {
@@ -2005,16 +2013,16 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
     .contact-bg-color {
-        height: 111vh;
+        height: 140vh;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     #home .main-banner-text {
         font-size: 22px;
     }
@@ -2034,13 +2042,13 @@ button:focus {
 
 
 /*==================== Media Query For Land Scape Mode =====================*/
-@media screen and (max-width:1366px ) and (orientation: landscape) {
+@media screen and (max-width:1367px ) and (orientation: landscape) {
     .contact-bg-color {
-        height: 82vh;
+        height: 58vh;
     }
 }
 
-@media screen and (max-width: 1280px) and (orientation: landscape) {
+@media screen and (max-width: 1281px) and (orientation: landscape) {
     .contact-bg-color {
         height: 65vh;
     }
@@ -2053,10 +2061,11 @@ button:focus {
 
     .bg-contact-color {
         margin-top: 76px;
+        padding: 77px 34px 45px 34px;
     }
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     #home .main-banner-text {
         font-size: 31px;
     }
@@ -2127,13 +2136,13 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 812px) and (orientation: landscape) {
+@media screen and (max-width: 813px) and (orientation: landscape) {
     .contact-bg-color {
         height: 140vh;
     }
 }
 
-@media screen and (max-width: 740px) and (orientation: landscape) {
+@media screen and (max-width: 741px) and (orientation: landscape) {
     #home .owl-carousel .owl-nav button.owl-next {
         right: 41%;
     }
@@ -2159,103 +2168,89 @@ button:focus {
         width: 64%;
     }
 
-    .address-bg-color {
-        bottom: -338px;
-        left: 27px;
-    }
-
-    .contact-bg-color {
-        height: 213vh;
-    }
-
-    .media-mt-footer {
-        margin-top: 370px;
-    }
-}
-
-@media screen and (max-width: 736px) and (orientation: landscape) {
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 41%;
-    }
-
-    .v-line::after {
-        height: 0;
-    }
-
-    .media-align-text {
-        text-align: center;
-    }
-
-    .news-heading::after {
-        content: '';
-        left: 107px;
-    }
-
-    .news-desc {
-        font-size: 17px;
-    }
-
-    .containing:hover .overlay {
-        width: 64%;
-    }
 
     .address-bg-color {
-        bottom: -338px;
-        left: 27px;
+        bottom: 0;
+        left: 0px;
+        position: relative;
     }
 
-    .contact-bg-color {
-        height: 213vh;
-    }
-
-    .media-mt-footer {
-        margin-top: 370px;
-    }
-}
-
-@media screen and (max-width: 731px) and (orientation: landscape) {
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 41%;
-    }
-
-    .v-line::after {
-        height: 0;
-    }
-
-    .media-align-text {
-        text-align: center;
-    }
-
-    .news-heading::after {
-        content: '';
-        left: 107px;
-    }
-
-    .news-desc {
-        font-size: 17px;
-    }
-
-    .containing:hover .overlay {
-        width: 64%;
-    }
-
-    .address-bg-color {
-        bottom: -338px;
-        left: 27px;
-    }
-
-    .contact-bg-color {
-        height: 213vh;
-    }
-
-    .media-mt-footer {
-        margin-top: 370px;
-    }
-}
-
-@media screen and (max-width: 667px) and (orientation: landscape) {
     .contact-bg-color {
         height: 230vh;
+    }
+
+    .footer-bg-color {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 737px) and (orientation: landscape) {
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 41%;
+    }
+
+    .v-line::after {
+        height: 0;
+    }
+
+    .media-align-text {
+        text-align: center;
+    }
+
+    .news-heading::after {
+        content: '';
+        left: 107px;
+    }
+
+    .news-desc {
+        font-size: 17px;
+    }
+
+    .containing:hover .overlay {
+        width: 64%;
+    }
+
+    .address-bg-color {
+        bottom: 0;
+        left: 0px;
+        position: relative;
+    }
+
+    .contact-bg-color {
+        height: 230vh;
+    }
+}
+
+@media screen and (max-width: 732px) and (orientation: landscape) {
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 41%;
+    }
+
+    .v-line::after {
+        height: 0;
+    }
+
+    .media-align-text {
+        text-align: center;
+    }
+
+    .news-heading::after {
+        content: '';
+        left: 107px;
+    }
+
+    .news-desc {
+        font-size: 17px;
+    }
+
+    .containing:hover .overlay {
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 668px) and (orientation: landscape) {
+    .contact-bg-color {
+        height: 250vh;
     }
 
     .btn-border {
@@ -2263,8 +2258,5 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
-    .contact-bg-color {
-        height: 240vh;
-    }
+@media screen and (max-width: 641px) and (orientation: landscape) {
 }
